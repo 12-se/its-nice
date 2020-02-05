@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 10px 0;
+    text-align: center;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+
+}
+.container{
+    padding: 0 30px;
+}
+
+.header .left a{
+    text-decoration: none;
+    color: #fed136;
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.left{
+    width: 20%;
+    float: left;
+}
+.right{
+    width: 40%;
+    float: right;
+}
+.right ul {
+    list-style: none;
+}
+.right ul li{
+    float: left;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 10px;
+}
+.header .right ul li a{
+   color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.second{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem 0;
+    text-align: center;
+}
+.second-text h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-style: italic;
+}
+.second-text h2{
+    font-size: 70px;
+    color: #ffffff;
+    margin: 30px;
+}
+.second-text a{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #fed136;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+.third{
+    padding: 5rem 0;
+    text-align: center;
+}
+.third-text{
+    margin: 20px;
+}
+.third-text h2{
+    font-size: 40px;
+    color: #212529;
+}
+.third-text p{
+    font-size: 16px;
+    color: #6c757d;
+    font-style: italic;
+}
+.third-box{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.third-box i{
+    color: #ffffff;
+    background-color: #fed136;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.third-box h4{
+    color: #212529;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.third-box p{
+    color: #6c757d;
+    font-size: 16px;
+    line-height: 20px;
+}
+.clear{
+    clear: both;
+}
+.fourth{
+    padding: 35px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    overflow: auto;
+    margin-top: 30px;
+}
+.fourth-box{
+    float: left;
+    width: 30%;
+    margin: 10px 20px;
+}
+.fourth-box .fourth-top img{
+    width: 100%;
+}
+.fourth-box .fourth-bottom{
+    background: #ffffff;
+    padding: 10px 0;
+}
+.fourth-box .fourth-bottom h4{
+    color: #212529;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fourth-top{
+    position: relative;
+}
+.fourth-top .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fed136;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.overlay span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+font-size: 100px;
+font-weight: bold;
+}
+.fourth-top:hover .overlay{
+    opacity: .9;
+}
+.fifth{
+    margin-top: 40px;
+    padding: 30px 0;
+}
+.fifth-all{
+    width: 50%;
+}
+.fifth-all .left{
+    float: left;
+    text-align: right;
+    width: 70%;
+}
+
+.fifth-all .right{
+    float: right;
+    width: 25%;
+}
+.fifth-all .right img{
+    width: 100%;
+    border-radius: 100%;
+    border: 7px solid #e9ecef;
+
+}
+.fifth-all .left h4{
+
+    font-size: 25px;
+    color: #212529;
+}
+.fifth-all .left p{
+    color: #6c757d;
+    font-size: 20px;
+line-height: 20px;
+}
+
+
+
+/*  */
+
+.fifth-all2{
+    margin-top: 3rem;
+    width: 50%;
+}
+.fifth-all2 .right2{
+float: right;
+width: 70%;
+}
+.fifth-all2 .left2{
+    float: left;
+    width: 20%;
+}
+
+
+
+.sixth{
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+    margin-top: 5rem;
+    overflow: auto;
+    text-align: center;
+}
+
+.sixth-box{
+    width: 33%;
+    float: left;
+}
+.sixth-box .sixth-img{
+    width: 50%;
+    margin: auto;
+}
+.sixth-box .sixth-img img{
+    width: 100%;
+    border-radius: 100%;
+    border: 7px solid #e9ecef;
+    
+}
+.sixth-box .sixth-text h4{
+    color: #212529;
+    font-size: 24px;
+    font-family: ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sixth-text p{
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.social{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social i{
+    color: #ffffff;
+    background: #212529;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 10px;
+    transition: .8s;
+}
+.social i:hover{
+    background: #fed136;
+    color: #ffffff;
+    cursor: pointer;
+}
+.container p{
+    text-align: center;
+    font-size: 16px;
+    color: #6c757d;
+}
+
